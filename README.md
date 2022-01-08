@@ -12,13 +12,23 @@ Louise recently started fundraising for a play "Fever" which ended up missing th
 
 ![Theater Outcomes Based on Launch Date Chart](Resources/Theater_Outcomes_vs_Launch.png)
 
-We performed this analysis by creating a pivot table to measure the outcomes based on the date launched. We put the outcomes in the column and the date launched in the rows section. Whats the 
+We performed this analysis by creating a pivot table to measure the outcomes based on the date launched. We put the outcomes in the column and the date launched in the rows section. We then removed the year from the rows and sorted the results by month. We added two filters to our pivot table, the year the kickstarter was created and the parent category. We set the parent category to "Theater". We then took our data and made the line graph above. As a final touch, we changed the color of the different outcomes to make the graph easier to understand.
 
 ### Analysis of Outcomes Based on Goals
 
 ![Outcome Based on Goals Chart Chart](Resources/Outcomes_vs_Goals.png)
 
+We performed this analysis by defining the different ranges of goals to examine. From there, we used the CountIfs() function to get a count of all the successful, failed, and cancelled kickstarters that:
+
+  1. Fell into the given goal range.
+  
+  2. Had the subcategory set to "Plays"
+  
+ Once we got the initial tally, we added them up to get the total outcomes number. Then we divided each category by the total tally to get the percentages of each category. Then we created the graph above by selecting the Goal range column along with the columns of the percentages of the different outcomes.
+
 ### Challenges and Difficulties Encountered
+
+
 
 ## Results
 
