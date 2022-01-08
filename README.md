@@ -28,15 +28,17 @@ We performed this analysis by defining the different ranges of goals to examine.
 
 ### Challenges and Difficulties Encountered
 
-
+Most of the challenges that were encountered during this analysis had to do with me being unfamiliar with the different functions that excel has to offer. One of them being the CountIfs(). In order to overcome these challenges, I had to search for the documentations of the function to determine how to set multiple conditions. Another challenge was learning how to use vlookup() and how the selection works. Overall, the assignment was clear. It took reading the documentation and then some trial and error to get all the results we needed.
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+- Two conclusions from the Outcome based on Launch Date that we got are that:
+   1. Most of the outcomes were successful regardless of the month launched.
+   2. The most successful time to launch a theater kickstarter is from April to August.
 
-- What can you conclude about the Outcomes based on Goals?
+- From looking at the graph of the Outcome based on Goals, we can conclude that for the greatest chance of a successful play kickstarter, the goal should be below $10k.
 
-- What are some limitations of this dataset?
+- One limitation of this dataset is that the currencies are not all the same. This means that even though we made some of these charts, we did not convert the currency to USD and it may be skewing the results of the graphs.
 
-- What are some other possible tables and/or graphs that we could create?
+- Another possible table that we can create would combine the first two graphs. Since we know that Louise launched a project that was below $10k, we can create a new table to count the outcomes of all plays that are below $10k and sort those by month launched. This will give us a better understanding of when is the best month to launch a project that is more related to what Louise is trying to do.
 
